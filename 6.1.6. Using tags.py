@@ -6,7 +6,6 @@
 # 6.1.6. Используем теги
 
 # Добавляем загрузку по тегу
-# 
 
 from tkinter import *
 from PIL import Image, ImageTk
