@@ -63,4 +63,8 @@ tag_label.pack()
 tag_combobox = ttk.Combobox(values=ALLOWED_TAGS)
 tag_combobox.pack()
 
+# Кнопка для загрузки изображения с тегом
+load_button = Button(text="Загрузить по тегу", command=open_new_window)
+load_button.pack()
+
 window.mainloop()
