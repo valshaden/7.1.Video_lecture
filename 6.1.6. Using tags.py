@@ -20,7 +20,7 @@ def load_image(url):
         img = Image.open(image_data)
         img.thumbnail((600, 480), Image.Resampling.LANCZOS)
         return ImageTk.PhotoImage(img)
-    except tException as e:
+    except Exception as e:
         print(f"Ошибка при загрузке изображения: {e}")
         return None
 
